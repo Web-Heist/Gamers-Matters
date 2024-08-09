@@ -2,27 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamers Matters</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <style>
-  .effects{
-    font-size:1.8rem; animation-name:heading; 
-    animation-duration:11s; animation-iteration-count: infinite;
-     color: #e5e5e7; width:100%; overflow: hidden; }
+    <style>
+      .effects{
+        font-size:1.9rem; animation-name:heading; 
+        animation-duration:11s; animation-iteration-count: infinite;
+         color: #e5e5e7; width:100%; overflow: hidden; }
+      
+      @keyframes heading {
+        0%{
+         transform:translate(-90%); }
+        50%{
+        transform:translate(0%); }
+        100%{
+        transform:translate(95%);}}
+    
+        @media (max-width : 480px) { .effects{font-size:1.2rem; margin-top:2rem; margin-bottom:1rem;}
+       }
+        </style>
   
-  @keyframes heading {
-    0%{
-     transform:translate(-90%); }
-    50%{
-    transform:translate(0%); }
-    100%{
-    transform:translate(80%);}};
-
-    @media only screen and (max-width:480px) { html{font-size:50%;} .effects{font-size:0.5rem;}
-   }
-    </style>
+  </head>
   <body style="background-image : linear-gradient(to left,rgb(211, 157, 157),rgb(74, 131, 148)); height:100%; width:100%; overflow: hidden;">
 
 <center><h1 class="effects">
